@@ -9,24 +9,28 @@ public class ListExample {
 	/*
 	 * List - Duplicates allowed , Insertion Order Preserved.
 	 * 
-	 * List also have some more operations addition to the collection
-	 * operations, they are 1.void add(int index, Object o); 2.boolean
-	 * addAll(Collections, int index); 3.object get(int index); 4.object remove
-	 * (int index); 5.boolean set(int index, Object o) - replace existing
+	 * List also have some more operations addition to the collection operations, they are 
+	 * 1.void add(int index, Object o); 
+	 * 2.boolean addAll(Collections, int index); 
+	 * 3.object get(int index); 
+	 * 4.object remove(int index); 
+	 * 5.boolean set(int index, Object o) - replace existing
 	 * 
-	 * List basically deals with index positions, so it provides some methods to
-	 * get index, they are 1.int list.indexOf("A"); 2.int list.lastIndexOf("B");
+	 * List basically deals with index positions, so it provides some methods to get index, they are 
+	 * 1.int list.indexOf("A"); 
+	 * 2.int list.lastIndexOf("B");
 	 *
-	 * List provides ListIterator to travel one by one in list objects - it will
-	 * return available index ListIterator list.listIterator();
+	 * List provides ListIterator to travel one by one in list objects 
+	 * - it will return available index ListIterator list.listIterator();
 	 */
 
 	public static void main(String[] args) {
 		
 		/*
-		 * Re-sizable array algorithm is used Heterogeneous objects can be added
-		 * null insertion is possible DEFAULT_CAPACITY = 10; NEW_CAPACITY =
-		 * (CURRENT_CAPACITY * 3/2)+1 ==--->10-->16-->25
+		 * Re-sizable array algorithm is used 
+		 * Heterogeneous objects can be added
+		 * null insertion is possible 
+		 * DEFAULT_CAPACITY = 10; NEW_CAPACITY =(CURRENT_CAPACITY * 3/2)+1 ==--->10-->16-->25
 		 */
 		callArrayList1();
 		callArrayList2();
