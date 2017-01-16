@@ -24,13 +24,8 @@ public class ListExample {
 	 * 1.int list.indexOf("A"); 
 	 * 2.int list.lastIndexOf("B");
 	 *
-<<<<<<< Upstream, based on origin/master
-	 * List provides ListIterator to travel one by one in list objects 
-	 * - it will return available index ListIterator list.listIterator();
-=======
 	 * List provides ListIterator to travel one by one in list objects - it will return available index 
 	 * ListIterator list.listIterator();
->>>>>>> 048867c iterator addes
 	 */
 
 	public static void main(String[] args) {
